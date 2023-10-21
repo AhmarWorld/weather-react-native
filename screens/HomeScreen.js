@@ -203,6 +203,7 @@ export default function HomeScreen() {
                     </SafeAreaView>
                 )
             }
+            <Text>fawdawd</Text>
         </View >
     )
 

@@ -3,6 +3,7 @@ import { NavigationContainer } from '@react-navigation/native'
 import React from 'react'
 import { LogBox } from 'react-native';
 import HomeScreen from '../screens/HomeScreen';
+import tabNavigation from './tabNavigation'
 
 const Stack = createNativeStackNavigator()
 
@@ -16,6 +17,7 @@ export default function AppNavigation() {
             <Stack.Navigator>
                 <Stack.Screen name='Home' options={{ headerShown: false }} component={HomeScreen} />
             </Stack.Navigator>
+
         </NavigationContainer>
     )
 }
